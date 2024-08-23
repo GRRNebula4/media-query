@@ -1,0 +1,83 @@
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    background-color: lightsalmon;
+    color: darkmagenta
+}
+
+p, h1 {
+
+}
+
+p {
+
+}
+
+h1 {
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+.mobile {
+    background-color: darkmagenta;
+    color: lightsalmon;
+    background-color: lightsalmon;
+    color: darkmagenta;
+
+}
+
+.tablet {
+    
+    
+
+}
+
+.desktop {
+    
+
+}
+
+@media only screen and (min-width: 426px) {
+    body {
+        background-color: blanchedalmond;
+    color: darkolivegreen;
+
+    }
+    .tablet {
+        background-color: darkolivegreen;
+    color: blanchedalmond;
+
+    }
+    .mobile{
+
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: darkgoldenrod;
+    color: lemonchiffon;
+    
+
+    }
+    .tablet {
+
+    }
+    .desktop {
+        background-color: lemonchiffon;
+    color: darkgoldenrod;
+
+
+    }
+}
